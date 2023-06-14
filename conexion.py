@@ -4,11 +4,12 @@
 import mysql.connector
 
 class DataBase:
+    
     def __init__(self):
         self.connection=mysql.connector.connect(
             host='127.0.0.1',
             user='root',
-            password='2001',
+            password='0000',
             database='chorizoquibdo'
         )
 
